@@ -1,0 +1,30 @@
+ICSR CASE INTAKE & VALIDATION — COMPLETENESS CHECKLIST
+
+Case ID: ICSR-TRAIN-001
+
+MINIMUM CASE ELEMENTS
+[✓] Identifiable patient: 54-year-old male
+[✓] Identifiable reporter: Dr. R.K., physician
+[✓] Suspect medicinal product: Amoxicillin 500 mg capsule
+[✓] Adverse event: Generalized maculopapular rash with facial swelling
+
+CASE QUALITY
+[✓] De-identified information used
+[✓] Product and dose documented
+[✓] Therapy start date documented
+[✓] Event onset date documented
+[✓] Action taken documented
+[✓] Outcome documented
+[✓] Dechallenge documented
+[ ] Rechallenge — not reported
+[ ] Concomitant medicines — not reported
+[ ] Relevant tests — not reported
+[ ] Reporter contact details — not provided
+
+FACT VS ASSUMPTION
+Reported facts are marked as facts in the structured report.
+No unreported diagnosis, laboratory result, concomitant medicine, or rechallenge was invented.
+
+VALIDATION RESULT
+Core minimum elements are present for a training ICSR.
+Follow-up is required for missing/relevant information before treating the case as fully complete.

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ICSR Case Intake & Validation — ICSR-TRAIN-001</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:1000px;margin:0 auto;padding:24px;background:#f6f7fb;color:#20233a;line-height:1.55}
+.card{background:#fff;border-radius:16px;padding:24px;margin:16px 0;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+h1{margin-top:0} h2{color:#563b78} .badge{display:inline-block;background:#e8f7f0;color:#14785a;padding:6px 12px;border-radius:999px;font-weight:700}
+table{width:100%;border-collapse:collapse} th,td{padding:10px;border-bottom:1px solid #e6e6ee;text-align:left;vertical-align:top} th{background:#f0eef8}
+.ok{color:#14785a;font-weight:700} .missing{color:#9a5a00;font-weight:700}
+a{color:#5a3c89}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>ICSR Case Intake and Validation</h1>
+<p><span class="badge">Training case • Core elements present</span></p>
+<p><strong>Case ID:</strong> ICSR-TRAIN-001</p>
+<p>This is a fictional, de-identified training case prepared for the displayed task. It is not a real patient safety report.</p>
+</div>
+
+<div class="card">
+<h2>1. Structured ICSR Form</h2>
+<table>
+<tr><th>Section</th><th>Field</th><th>Value</th><th>Status</th></tr>
+<tr><td>Administrative</td><td>Case ID</td><td>ICSR-TRAIN-001</td><td class=ok>Reported fact</td></tr><tr><td>Administrative</td><td>Country of primary source</td><td>India</td><td class=ok>Reported/assigned training field</td></tr><tr><td>Patient</td><td>Patient characteristics</td><td>54-year-old male; initials not provided</td><td class=ok>Reported fact</td></tr><tr><td>Reporter</td><td>Primary source</td><td>Dr. R.K.; physician; contact details not provided</td><td class=ok>Reported fact</td></tr><tr><td>Product</td><td>Suspect medicinal product</td><td>Amoxicillin 500 mg capsule</td><td class=ok>Reported fact</td></tr><tr><td>Product</td><td>Indication</td><td>Acute bacterial respiratory infection</td><td class=ok>Reported fact</td></tr><tr><td>Product</td><td>Dose/regimen</td><td>500 mg orally three times daily</td><td class=ok>Reported fact</td></tr><tr><td>Product</td><td>Therapy start</td><td>2026-08-10</td><td class=ok>Reported fact</td></tr><tr><td>Reaction/Event</td><td>Adverse event</td><td>Generalized maculopapular rash with facial swelling</td><td class=ok>Reported fact</td></tr><tr><td>Reaction/Event</td><td>Event onset</td><td>2026-08-12</td><td class=ok>Reported fact</td></tr><tr><td>Reaction/Event</td><td>Seriousness</td><td>Non-serious based on the information available</td><td class=ok>Assessment from supplied training narrative</td></tr><tr><td>Outcome</td><td>Action taken</td><td>Amoxicillin discontinued; symptomatic treatment given</td><td class=ok>Reported fact</td></tr><tr><td>Outcome</td><td>Outcome</td><td>Recovering at last observation</td><td class=ok>Reported fact</td></tr><tr><td>Causality-related</td><td>Dechallenge</td><td>Positive (reported improvement after discontinuation)</td><td class=ok>Reported fact</td></tr><tr><td>Causality-related</td><td>Rechallenge</td><td>Not reported</td><td class=missing>Missing information</td></tr><tr><td>Concomitant therapy</td><td>Concomitant medicines</td><td>Not reported</td><td class=missing>Missing information</td></tr><tr><td>Investigations</td><td>Relevant tests</td><td>No relevant test results reported</td><td class=missing>Missing information</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>2. Medication & Event Chronology</h2>
+<table>
+<tr><th>Date</th><th>Event</th></tr>
+<tr><td>2026-08-10</td><td>Amoxicillin 500 mg orally three times daily started for acute bacterial respiratory infection.</td></tr>
+<tr><td>2026-08-12</td><td>Generalized maculopapular rash with facial swelling reported.</td></tr>
+<tr><td>2026-08-12</td><td>Amoxicillin discontinued; symptomatic treatment given.</td></tr>
+<tr><td>After discontinuation</td><td>Improvement reported; patient recovering at last observation.</td></tr>
+<tr><td>Not reported</td><td>Rechallenge.</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>3. Completeness Validation</h2>
+<ul>
+<li class="ok">✓ Patient identified by age/sex.</li>
+<li class="ok">✓ Reporter identified by initials and professional role.</li>
+<li class="ok">✓ Suspect product identified.</li>
+<li class="ok">✓ Adverse event identified.</li>
+<li class="ok">✓ Dose, therapy start, onset, action taken and outcome documented.</li>
+<li class="ok">✓ Dechallenge documented.</li>
+<li class="missing">⚠ Rechallenge not reported.</li>
+<li class="missing">⚠ Concomitant medicines not reported.</li>
+<li class="missing">⚠ Relevant tests not reported.</li>
+<li class="missing">⚠ Reporter contact details not provided.</li>
+</ul>
+<p><strong>Validation conclusion:</strong> The four core case elements are present for this training ICSR. Follow-up is needed for the missing fields and any information required by the applicable reporting process.</p>
+</div>
+
+<div class="card">
+<h2>4. Facts vs Assumptions</h2>
+<p><strong>Reported facts:</strong> patient age/sex, reporter role, suspect product, indication, dose, treatment start, adverse event, onset, discontinuation, symptomatic treatment, improvement, and current outcome.</p>
+<p><strong>Not assumed:</strong> no allergy history, laboratory result, concomitant medicine, rechallenge, hospitalization, or definitive causal diagnosis has been invented.</p>
+</div>
+
+<div class="card">
+<h2>5. Proof / Reference</h2>
+<p>The minimum ICSR concepts were checked against the official ICH E2D(R1) guideline.</p>
+<p><a href="https://database.ich.org/sites/default/files/ICH_E2D%28R1%29_Step4_FinalGuideline_2025_0819.pdf" target="_blank" rel="noopener">Official ICH E2D(R1) guideline</a></p>
+</div>
+</body></html>

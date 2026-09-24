@@ -1,0 +1,18 @@
+Section,Field,Value,Information status
+Administrative,Case ID,ICSR-TRAIN-001,Reported fact
+Administrative,Country of primary source,India,Reported/assigned training field
+Patient,Patient characteristics,54-year-old male; initials not provided,Reported fact
+Reporter,Primary source,Dr. R.K.; physician; contact details not provided,Reported fact
+Product,Suspect medicinal product,Amoxicillin 500 mg capsule,Reported fact
+Product,Indication,Acute bacterial respiratory infection,Reported fact
+Product,Dose/regimen,500 mg orally three times daily,Reported fact
+Product,Therapy start,2026-08-10,Reported fact
+Reaction/Event,Adverse event,Generalized maculopapular rash with facial swelling,Reported fact
+Reaction/Event,Event onset,2026-08-12,Reported fact
+Reaction/Event,Seriousness,Non-serious based on the information available,Assessment from supplied training narrative
+Outcome,Action taken,Amoxicillin discontinued; symptomatic treatment given,Reported fact
+Outcome,Outcome,Recovering at last observation,Reported fact
+Causality-related,Dechallenge,Positive (reported improvement after discontinuation),Reported fact
+Causality-related,Rechallenge,Not reported,Missing information
+Concomitant therapy,Concomitant medicines,Not reported,Missing information
+Investigations,Relevant tests,No relevant test results reported,Missing information
